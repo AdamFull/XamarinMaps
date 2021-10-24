@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "B8WBUtFN9yLgroUdy99kyUekGHct7CAoVwVmJ1O4qjGmlJiPRo108lLwDPJY1CFBH9imdHldNw7wWzecQVqE4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AdamFull\\source\\repos\\XamarinMaps\\XamarinMaps\\XamarinMaps.iOS\\XamarinMaps.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AdamFull\\.nuget\\packages\\google.ads.common\\9.5.1\\google.ads.common.9.5.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\google.adwords\\24.16.0\\google.adwords.24.16.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\google.apis\\1.36.1\\google.apis.1.36.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\google.apis.auth\\1.36.1\\google.apis.auth.1.36.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\google.apis.core\\1.36.1\\google.apis.core.1.36.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\microsoft.extensions.configuration\\1.1.2\\microsoft.extensions.configuration.1.1.2.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\1.1.2\\microsoft.extensions.configuration.abstractions.1.1.2.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\microsoft.extensions.primitives\\1.1.1\\microsoft.extensions.primitives.1.1.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.3.0\\system.runtime.compilerservices.unsafe.4.3.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.servicemodel.http\\4.5.3\\system.servicemodel.http.4.5.3.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\system.servicemodel.security\\4.5.3\\system.servicemodel.security.4.5.3.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
