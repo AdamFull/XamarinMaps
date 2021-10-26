@@ -15,57 +15,57 @@
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\App.xaml</string>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\App.xaml.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\App.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Views\MainPage.xaml</string>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Views\MainPage.xaml.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Views\MainPage.xaml</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Views\MainPage.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\MyKeyHolder\MyKeyHolder.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\GoogleMapsApiService.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Services\GoogleMapsApiService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\IGoogleMapsApiService.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Services\IGoogleMapsApiService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Models\GoogleDirection.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Models\GoogleDirection.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Models\GooglePlaceAutoCompleteResult.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Models\GooglePlaceAutoCompleteResult.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Models\GooglePlace.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Models\GooglePlace.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\ViewModels\MainViewModel.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\ViewModels\MainViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Helpers\PolylineHelper.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Helpers\PolylineHelper.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Views\SearchPlacePage.xaml</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Views\SearchPlacePage.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Views\SearchPlacePage.xaml</string>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Views\SearchPlacePage.xaml.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Controls\ExtendedGoogleMaps.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Controls\ExtendedGoogleMaps.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps.Android\Resources\Resource.designer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.Android\Resources\Resource.designer.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\AssemblyInfo.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\AssemblyInfo.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\Users\AdamFull\.nuget\packages\xamarin.essentials\1.7.0\readme.txt</string>
+      <string>c:\users\adamfull\.nuget\packages\xamarin.essentials\1.7.0\readme.txt</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Constants.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
