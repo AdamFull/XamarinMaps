@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Kb1NMcyXJokdRgx+FeBttYesPOE3YFMOW+OL0Vx2Jl9Sddh9ysX+ovagxtskdiUQACuuAvnIM9HvO/4k2F3kg==",
+  "dgSpecHash": "Wo8tWOPziEQ63T2xxVIycc1KduQ6xYysJtl0zQOR4t9WN4rT7S1uuCew0+BG/aS/f3EDLTDaMTRIsZwxRRsmAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\AdamFull\\source\\repos\\XamarinMaps\\XamarinMaps\\XamarinMaps\\XamarinMaps.csproj",
   "expectedPackageFiles": [
@@ -30,9 +30,9 @@
     "C:\\Users\\AdamFull\\.nuget\\packages\\system.servicemodel.primitives\\4.5.3\\system.servicemodel.primitives.4.5.3.nupkg.sha512",
     "C:\\Users\\AdamFull\\.nuget\\packages\\system.servicemodel.security\\4.5.3\\system.servicemodel.security.4.5.3.nupkg.sha512",
     "C:\\Users\\AdamFull\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
-    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms.googlemaps\\3.2.1\\xamarin.forms.googlemaps.3.2.1.nupkg.sha512"
   ],
   "logs": []
 }

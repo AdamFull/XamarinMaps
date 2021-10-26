@@ -2,10 +2,13 @@ C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\net
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\XamarinMaps.dll
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\ref\XamarinMaps.dll
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\XamarinMaps.pdb
-C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.csproj.AssemblyReference.cache
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\Views\SearchPlacePage.xaml.g.cs
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.AssemblyInfoInputs.cache
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.AssemblyInfo.cs
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.csproj.CoreCompileInputs.cache
@@ -13,6 +16,4 @@ C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\net
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.dll
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\ref\XamarinMaps.dll
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.pdb
-C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.dll
-C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.pdb
-C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.csproj.AssemblyReference.cache

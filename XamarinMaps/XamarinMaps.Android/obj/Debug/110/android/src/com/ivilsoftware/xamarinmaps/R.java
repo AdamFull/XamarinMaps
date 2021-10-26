@@ -8959,26 +8959,21 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiScrollGesturesDuringRotateOrZoom=0x7f030424;
+    public static final int uiTiltGestures=0x7f030424;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiTiltGestures=0x7f030425;
+    public static final int uiZoomControls=0x7f030425;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomControls=0x7f030426;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiZoomGestures=0x7f030427;
+    public static final int uiZoomGestures=0x7f030426;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int upDuration=0x7f030428;
+    public static final int upDuration=0x7f030427;
     /**
      * Flag indicating whether the SeekBarPreference should continuously save the Seekbar
      * value while the Seekbar is being dragged. If true, the SeekBarPreference should continuously
@@ -8987,42 +8982,42 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int updatesContinuously=0x7f030429;
+    public static final int updatesContinuously=0x7f030428;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int uri=0x7f03042a;
+    public static final int uri=0x7f030429;
     /**
      * Enable compat padding.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f03042b;
+    public static final int useCompatPadding=0x7f03042a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useMaterialThemeColors=0x7f03042c;
+    public static final int useMaterialThemeColors=0x7f03042b;
     /**
      * Whether the preference should automatically set its summary to the value saved for the
      * preference, and update the summary when the value is changed. Defaults to false.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useSimpleSummaryProvider=0x7f03042d;
+    public static final int useSimpleSummaryProvider=0x7f03042c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f03042e;
+    public static final int useViewLifecycle=0x7f03042d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int values=0x7f03042f;
+    public static final int values=0x7f03042e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9030,12 +9025,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int verticalOffset=0x7f030430;
+    public static final int verticalOffset=0x7f03042f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f030431;
+    public static final int viewInflaterClass=0x7f030430;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -9048,28 +9043,28 @@ public final class R {
      * <tr><td>noState</td><td>2</td><td>Operates independently of the rest of MotionLayout constraint set system</td></tr>
      * </table>
      */
-    public static final int viewTransitionMode=0x7f030432;
+    public static final int viewTransitionMode=0x7f030431;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int viewTransitionOnCross=0x7f030433;
+    public static final int viewTransitionOnCross=0x7f030432;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int viewTransitionOnNegativeCross=0x7f030434;
+    public static final int viewTransitionOnNegativeCross=0x7f030433;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int viewTransitionOnPositiveCross=0x7f030435;
+    public static final int viewTransitionOnPositiveCross=0x7f030434;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -9081,7 +9076,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int visibilityMode=0x7f030436;
+    public static final int visibilityMode=0x7f030435;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -9089,15 +9084,15 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030437;
+    public static final int voiceIcon=0x7f030436;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int warmth=0x7f030438;
+    public static final int warmth=0x7f030437;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int waveDecay=0x7f030439;
+    public static final int waveDecay=0x7f030438;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9106,15 +9101,15 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int waveOffset=0x7f03043a;
+    public static final int waveOffset=0x7f030439;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int wavePeriod=0x7f03043b;
+    public static final int wavePeriod=0x7f03043a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int wavePhase=0x7f03043c;
+    public static final int wavePhase=0x7f03043b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -9133,7 +9128,7 @@ public final class R {
      * <tr><td>triangle</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int waveShape=0x7f03043d;
+    public static final int waveShape=0x7f03043c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -9145,7 +9140,7 @@ public final class R {
      * <tr><td>position</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int waveVariesBy=0x7f03043e;
+    public static final int waveVariesBy=0x7f03043d;
     /**
      * The layout for the controllable widget portion of a Preference. This is inflated
      * into the layout for a Preference and should be used more frequently than
@@ -9156,14 +9151,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int widgetLayout=0x7f03043f;
+    public static final int widgetLayout=0x7f03043e;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030440;
+    public static final int windowActionBar=0x7f03043f;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -9171,14 +9166,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f030441;
+    public static final int windowActionBarOverlay=0x7f030440;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f030442;
+    public static final int windowActionModeOverlay=0x7f030441;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -9193,7 +9188,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030443;
+    public static final int windowFixedHeightMajor=0x7f030442;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -9208,7 +9203,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030444;
+    public static final int windowFixedHeightMinor=0x7f030443;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -9223,7 +9218,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030445;
+    public static final int windowFixedWidthMajor=0x7f030444;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -9238,7 +9233,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f030446;
+    public static final int windowFixedWidthMinor=0x7f030445;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -9254,7 +9249,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030447;
+    public static final int windowMinWidthMajor=0x7f030446;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -9270,39 +9265,39 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030448;
+    public static final int windowMinWidthMinor=0x7f030447;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030449;
+    public static final int windowNoTitle=0x7f030448;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearSelectedStyle=0x7f03044a;
+    public static final int yearSelectedStyle=0x7f030449;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearStyle=0x7f03044b;
+    public static final int yearStyle=0x7f03044a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yearTodayStyle=0x7f03044c;
+    public static final int yearTodayStyle=0x7f03044b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f03044d;
+    public static final int zOrderOnTop=0x7f03044c;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -10884,101 +10879,100 @@ public final class R {
     public static final int common_google_play_services_install_button=0x7f0e0026;
     public static final int common_google_play_services_install_text=0x7f0e0027;
     public static final int common_google_play_services_install_title=0x7f0e0028;
-    public static final int common_google_play_services_notification_channel_name=0x7f0e0029;
-    public static final int common_google_play_services_notification_ticker=0x7f0e002a;
-    public static final int common_google_play_services_unknown_issue=0x7f0e002b;
-    public static final int common_google_play_services_unsupported_text=0x7f0e002c;
-    public static final int common_google_play_services_update_button=0x7f0e002d;
-    public static final int common_google_play_services_update_text=0x7f0e002e;
-    public static final int common_google_play_services_update_title=0x7f0e002f;
-    public static final int common_google_play_services_updating_text=0x7f0e0030;
-    public static final int common_google_play_services_wear_update_text=0x7f0e0031;
-    public static final int common_open_on_phone=0x7f0e0032;
-    public static final int common_signin_button_text=0x7f0e0033;
-    public static final int common_signin_button_text_long=0x7f0e0034;
-    public static final int copy=0x7f0e0035;
-    public static final int copy_toast_msg=0x7f0e0036;
-    public static final int error_icon_content_description=0x7f0e0037;
-    public static final int expand_button_title=0x7f0e0038;
-    public static final int exposed_dropdown_menu_content_description=0x7f0e0039;
-    public static final int fab_transformation_scrim_behavior=0x7f0e003a;
-    public static final int fab_transformation_sheet_behavior=0x7f0e003b;
-    public static final int fallback_menu_item_copy_link=0x7f0e003c;
-    public static final int fallback_menu_item_open_in_browser=0x7f0e003d;
-    public static final int fallback_menu_item_share_link=0x7f0e003e;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003f;
-    public static final int icon_content_description=0x7f0e0040;
-    public static final int item_view_role_description=0x7f0e0041;
-    public static final int material_clock_display_divider=0x7f0e0042;
-    public static final int material_clock_toggle_content_description=0x7f0e0043;
-    public static final int material_hour_selection=0x7f0e0044;
-    public static final int material_hour_suffix=0x7f0e0045;
-    public static final int material_minute_selection=0x7f0e0046;
-    public static final int material_minute_suffix=0x7f0e0047;
-    public static final int material_motion_easing_accelerated=0x7f0e0048;
-    public static final int material_motion_easing_decelerated=0x7f0e0049;
-    public static final int material_motion_easing_emphasized=0x7f0e004a;
-    public static final int material_motion_easing_linear=0x7f0e004b;
-    public static final int material_motion_easing_standard=0x7f0e004c;
-    public static final int material_slider_range_end=0x7f0e004d;
-    public static final int material_slider_range_start=0x7f0e004e;
-    public static final int material_timepicker_am=0x7f0e004f;
-    public static final int material_timepicker_clock_mode_description=0x7f0e0050;
-    public static final int material_timepicker_hour=0x7f0e0051;
-    public static final int material_timepicker_minute=0x7f0e0052;
-    public static final int material_timepicker_pm=0x7f0e0053;
-    public static final int material_timepicker_select_time=0x7f0e0054;
-    public static final int material_timepicker_text_input_mode_description=0x7f0e0055;
-    public static final int mtrl_badge_numberless_content_description=0x7f0e0056;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e0057;
-    public static final int mtrl_exceed_max_badge_number_content_description=0x7f0e0058;
-    public static final int mtrl_exceed_max_badge_number_suffix=0x7f0e0059;
-    public static final int mtrl_picker_a11y_next_month=0x7f0e005a;
-    public static final int mtrl_picker_a11y_prev_month=0x7f0e005b;
-    public static final int mtrl_picker_announce_current_selection=0x7f0e005c;
-    public static final int mtrl_picker_cancel=0x7f0e005d;
-    public static final int mtrl_picker_confirm=0x7f0e005e;
-    public static final int mtrl_picker_date_header_selected=0x7f0e005f;
-    public static final int mtrl_picker_date_header_title=0x7f0e0060;
-    public static final int mtrl_picker_date_header_unselected=0x7f0e0061;
-    public static final int mtrl_picker_day_of_week_column_header=0x7f0e0062;
-    public static final int mtrl_picker_invalid_format=0x7f0e0063;
-    public static final int mtrl_picker_invalid_format_example=0x7f0e0064;
-    public static final int mtrl_picker_invalid_format_use=0x7f0e0065;
-    public static final int mtrl_picker_invalid_range=0x7f0e0066;
-    public static final int mtrl_picker_navigate_to_year_description=0x7f0e0067;
-    public static final int mtrl_picker_out_of_range=0x7f0e0068;
-    public static final int mtrl_picker_range_header_only_end_selected=0x7f0e0069;
-    public static final int mtrl_picker_range_header_only_start_selected=0x7f0e006a;
-    public static final int mtrl_picker_range_header_selected=0x7f0e006b;
-    public static final int mtrl_picker_range_header_title=0x7f0e006c;
-    public static final int mtrl_picker_range_header_unselected=0x7f0e006d;
-    public static final int mtrl_picker_save=0x7f0e006e;
-    public static final int mtrl_picker_text_input_date_hint=0x7f0e006f;
-    public static final int mtrl_picker_text_input_date_range_end_hint=0x7f0e0070;
-    public static final int mtrl_picker_text_input_date_range_start_hint=0x7f0e0071;
-    public static final int mtrl_picker_text_input_day_abbr=0x7f0e0072;
-    public static final int mtrl_picker_text_input_month_abbr=0x7f0e0073;
-    public static final int mtrl_picker_text_input_year_abbr=0x7f0e0074;
-    public static final int mtrl_picker_toggle_to_calendar_input_mode=0x7f0e0075;
-    public static final int mtrl_picker_toggle_to_day_selection=0x7f0e0076;
-    public static final int mtrl_picker_toggle_to_text_input_mode=0x7f0e0077;
-    public static final int mtrl_picker_toggle_to_year_selection=0x7f0e0078;
-    public static final int nav_app_bar_navigate_up_description=0x7f0e0079;
-    public static final int nav_app_bar_open_drawer_description=0x7f0e007a;
-    public static final int not_set=0x7f0e007b;
-    public static final int overflow_tab_title=0x7f0e007c;
-    public static final int password_toggle_content_description=0x7f0e007d;
-    public static final int path_password_eye=0x7f0e007e;
-    public static final int path_password_eye_mask_strike_through=0x7f0e007f;
-    public static final int path_password_eye_mask_visible=0x7f0e0080;
-    public static final int path_password_strike_through=0x7f0e0081;
-    public static final int preference_copied=0x7f0e0082;
-    public static final int search_menu_title=0x7f0e0083;
-    public static final int status_bar_notification_info_overflow=0x7f0e0084;
-    public static final int summary_collapsed_preference_list=0x7f0e0085;
-    public static final int v7_preference_off=0x7f0e0086;
-    public static final int v7_preference_on=0x7f0e0087;
+    public static final int common_google_play_services_notification_ticker=0x7f0e0029;
+    public static final int common_google_play_services_unknown_issue=0x7f0e002a;
+    public static final int common_google_play_services_unsupported_text=0x7f0e002b;
+    public static final int common_google_play_services_update_button=0x7f0e002c;
+    public static final int common_google_play_services_update_text=0x7f0e002d;
+    public static final int common_google_play_services_update_title=0x7f0e002e;
+    public static final int common_google_play_services_updating_text=0x7f0e002f;
+    public static final int common_google_play_services_wear_update_text=0x7f0e0030;
+    public static final int common_open_on_phone=0x7f0e0031;
+    public static final int common_signin_button_text=0x7f0e0032;
+    public static final int common_signin_button_text_long=0x7f0e0033;
+    public static final int copy=0x7f0e0034;
+    public static final int copy_toast_msg=0x7f0e0035;
+    public static final int error_icon_content_description=0x7f0e0036;
+    public static final int expand_button_title=0x7f0e0037;
+    public static final int exposed_dropdown_menu_content_description=0x7f0e0038;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0039;
+    public static final int fab_transformation_sheet_behavior=0x7f0e003a;
+    public static final int fallback_menu_item_copy_link=0x7f0e003b;
+    public static final int fallback_menu_item_open_in_browser=0x7f0e003c;
+    public static final int fallback_menu_item_share_link=0x7f0e003d;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003e;
+    public static final int icon_content_description=0x7f0e003f;
+    public static final int item_view_role_description=0x7f0e0040;
+    public static final int material_clock_display_divider=0x7f0e0041;
+    public static final int material_clock_toggle_content_description=0x7f0e0042;
+    public static final int material_hour_selection=0x7f0e0043;
+    public static final int material_hour_suffix=0x7f0e0044;
+    public static final int material_minute_selection=0x7f0e0045;
+    public static final int material_minute_suffix=0x7f0e0046;
+    public static final int material_motion_easing_accelerated=0x7f0e0047;
+    public static final int material_motion_easing_decelerated=0x7f0e0048;
+    public static final int material_motion_easing_emphasized=0x7f0e0049;
+    public static final int material_motion_easing_linear=0x7f0e004a;
+    public static final int material_motion_easing_standard=0x7f0e004b;
+    public static final int material_slider_range_end=0x7f0e004c;
+    public static final int material_slider_range_start=0x7f0e004d;
+    public static final int material_timepicker_am=0x7f0e004e;
+    public static final int material_timepicker_clock_mode_description=0x7f0e004f;
+    public static final int material_timepicker_hour=0x7f0e0050;
+    public static final int material_timepicker_minute=0x7f0e0051;
+    public static final int material_timepicker_pm=0x7f0e0052;
+    public static final int material_timepicker_select_time=0x7f0e0053;
+    public static final int material_timepicker_text_input_mode_description=0x7f0e0054;
+    public static final int mtrl_badge_numberless_content_description=0x7f0e0055;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0056;
+    public static final int mtrl_exceed_max_badge_number_content_description=0x7f0e0057;
+    public static final int mtrl_exceed_max_badge_number_suffix=0x7f0e0058;
+    public static final int mtrl_picker_a11y_next_month=0x7f0e0059;
+    public static final int mtrl_picker_a11y_prev_month=0x7f0e005a;
+    public static final int mtrl_picker_announce_current_selection=0x7f0e005b;
+    public static final int mtrl_picker_cancel=0x7f0e005c;
+    public static final int mtrl_picker_confirm=0x7f0e005d;
+    public static final int mtrl_picker_date_header_selected=0x7f0e005e;
+    public static final int mtrl_picker_date_header_title=0x7f0e005f;
+    public static final int mtrl_picker_date_header_unselected=0x7f0e0060;
+    public static final int mtrl_picker_day_of_week_column_header=0x7f0e0061;
+    public static final int mtrl_picker_invalid_format=0x7f0e0062;
+    public static final int mtrl_picker_invalid_format_example=0x7f0e0063;
+    public static final int mtrl_picker_invalid_format_use=0x7f0e0064;
+    public static final int mtrl_picker_invalid_range=0x7f0e0065;
+    public static final int mtrl_picker_navigate_to_year_description=0x7f0e0066;
+    public static final int mtrl_picker_out_of_range=0x7f0e0067;
+    public static final int mtrl_picker_range_header_only_end_selected=0x7f0e0068;
+    public static final int mtrl_picker_range_header_only_start_selected=0x7f0e0069;
+    public static final int mtrl_picker_range_header_selected=0x7f0e006a;
+    public static final int mtrl_picker_range_header_title=0x7f0e006b;
+    public static final int mtrl_picker_range_header_unselected=0x7f0e006c;
+    public static final int mtrl_picker_save=0x7f0e006d;
+    public static final int mtrl_picker_text_input_date_hint=0x7f0e006e;
+    public static final int mtrl_picker_text_input_date_range_end_hint=0x7f0e006f;
+    public static final int mtrl_picker_text_input_date_range_start_hint=0x7f0e0070;
+    public static final int mtrl_picker_text_input_day_abbr=0x7f0e0071;
+    public static final int mtrl_picker_text_input_month_abbr=0x7f0e0072;
+    public static final int mtrl_picker_text_input_year_abbr=0x7f0e0073;
+    public static final int mtrl_picker_toggle_to_calendar_input_mode=0x7f0e0074;
+    public static final int mtrl_picker_toggle_to_day_selection=0x7f0e0075;
+    public static final int mtrl_picker_toggle_to_text_input_mode=0x7f0e0076;
+    public static final int mtrl_picker_toggle_to_year_selection=0x7f0e0077;
+    public static final int nav_app_bar_navigate_up_description=0x7f0e0078;
+    public static final int nav_app_bar_open_drawer_description=0x7f0e0079;
+    public static final int not_set=0x7f0e007a;
+    public static final int overflow_tab_title=0x7f0e007b;
+    public static final int password_toggle_content_description=0x7f0e007c;
+    public static final int path_password_eye=0x7f0e007d;
+    public static final int path_password_eye_mask_strike_through=0x7f0e007e;
+    public static final int path_password_eye_mask_visible=0x7f0e007f;
+    public static final int path_password_strike_through=0x7f0e0080;
+    public static final int preference_copied=0x7f0e0081;
+    public static final int search_menu_title=0x7f0e0082;
+    public static final int status_bar_notification_info_overflow=0x7f0e0083;
+    public static final int summary_collapsed_preference_list=0x7f0e0084;
+    public static final int v7_preference_off=0x7f0e0085;
+    public static final int v7_preference_on=0x7f0e0086;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -14129,9 +14123,9 @@ public final class R {
       0x7f0303c4, 0x7f0303c5, 0x7f0303c7, 0x7f0303c8, 
       0x7f0303c9, 0x7f0303ca, 0x7f0303d2, 0x7f0303d3, 
       0x7f030404, 0x7f030405, 0x7f030406, 0x7f030407, 
-      0x7f030431, 0x7f030440, 0x7f030441, 0x7f030442, 
-      0x7f030443, 0x7f030444, 0x7f030445, 0x7f030446, 
-      0x7f030447, 0x7f030448, 0x7f030449
+      0x7f030430, 0x7f03043f, 0x7f030440, 0x7f030441, 
+      0x7f030442, 0x7f030443, 0x7f030444, 0x7f030445, 
+      0x7f030446, 0x7f030447, 0x7f030448
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -15922,7 +15916,7 @@ public final class R {
      */
     public static final int[] Badge={
       0x7f030049, 0x7f030053, 0x7f030055, 0x7f0301cf, 
-      0x7f030296, 0x7f0302d7, 0x7f030430
+      0x7f030296, 0x7f0302d7, 0x7f03042f
     };
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#backgroundColor}
@@ -19001,7 +18995,7 @@ public final class R {
       0x7f030256, 0x7f030259, 0x7f03025d, 0x7f0302c4, 
       0x7f0302c5, 0x7f0302f4, 0x7f0302fc, 0x7f030301, 
       0x7f03031b, 0x7f03031c, 0x7f03031d, 0x7f030416, 
-      0x7f030418, 0x7f03041a, 0x7f030436
+      0x7f030418, 0x7f03041a, 0x7f030435
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -23097,7 +23091,7 @@ public final class R {
       0x7f030259, 0x7f03025d, 0x7f0302c4, 0x7f0302c5, 
       0x7f0302c6, 0x7f0302f4, 0x7f0302fc, 0x7f030301, 
       0x7f03031b, 0x7f03031c, 0x7f03031d, 0x7f030416, 
-      0x7f030418, 0x7f03041a, 0x7f030436
+      0x7f030418, 0x7f03041a, 0x7f030435
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -27349,7 +27343,7 @@ public final class R {
      * @see #EditTextPreference_useSimpleSummaryProvider
      */
     public static final int[] EditTextPreference={
-      0x7f03042d
+      0x7f03042c
     };
     /**
      * <p>
@@ -27554,7 +27548,7 @@ public final class R {
       0x7f030161, 0x7f03016f, 0x7f03018d, 0x7f03018e, 
       0x7f0301c6, 0x7f0301d0, 0x7f030298, 0x7f030318, 
       0x7f030330, 0x7f030347, 0x7f03034a, 0x7f030352, 
-      0x7f03042b
+      0x7f03042a
     };
     /**
      * <p>
@@ -28616,7 +28610,7 @@ public final class R {
       0x7f030034, 0x7f030065, 0x7f030079, 0x7f03010c, 
       0x7f030120, 0x7f0301e0, 0x7f0301e1, 0x7f0301e2, 
       0x7f0301e3, 0x7f0302e3, 0x7f030332, 0x7f030333, 
-      0x7f030334, 0x7f030438
+      0x7f030334, 0x7f030437
     };
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#altSrc}
@@ -29178,8 +29172,8 @@ public final class R {
       0x01010325, 0x01010326, 0x01010327, 0x01010328, 
       0x010103fa, 0x01010440, 0x7f030122, 0x7f0301b8, 
       0x7f0302c4, 0x7f0302c6, 0x7f030418, 0x7f03041a, 
-      0x7f03043a, 0x7f03043b, 0x7f03043c, 0x7f03043d, 
-      0x7f03043e
+      0x7f030439, 0x7f03043a, 0x7f03043b, 0x7f03043c, 
+      0x7f03043d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
@@ -29712,8 +29706,8 @@ public final class R {
       0x01010325, 0x01010326, 0x01010327, 0x01010328, 
       0x010103fa, 0x01010440, 0x7f030122, 0x7f0301b8, 
       0x7f0302c4, 0x7f0302c6, 0x7f030418, 0x7f03041a, 
-      0x7f030439, 0x7f03043a, 0x7f03043b, 0x7f03043c, 
-      0x7f03043d
+      0x7f030438, 0x7f030439, 0x7f03043a, 0x7f03043b, 
+      0x7f03043c
     };
     /**
      * <p>
@@ -30005,8 +29999,8 @@ public final class R {
     public static final int[] KeyTrigger={
       0x7f0301b8, 0x7f0302c6, 0x7f0302c7, 0x7f0302c8, 
       0x7f0302d9, 0x7f0302db, 0x7f0302dc, 0x7f03041c, 
-      0x7f03041d, 0x7f03041e, 0x7f030433, 0x7f030434, 
-      0x7f030435
+      0x7f03041d, 0x7f03041e, 0x7f030432, 0x7f030433, 
+      0x7f030434
     };
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#framePosition}
@@ -31868,7 +31862,7 @@ public final class R {
      */
     public static final int[] ListPreference={
       0x010100b2, 0x010101f8, 0x7f030171, 0x7f030172, 
-      0x7f03042d
+      0x7f03042c
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -32015,7 +32009,6 @@ public final class R {
      * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.ivilsoftware.xamarinmaps:uiMapToolbar}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.ivilsoftware.xamarinmaps:uiRotateGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.ivilsoftware.xamarinmaps:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom com.ivilsoftware.xamarinmaps:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.ivilsoftware.xamarinmaps:uiTiltGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomControls com.ivilsoftware.xamarinmaps:uiZoomControls}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.ivilsoftware.xamarinmaps:uiZoomGestures}</code></td><td></td></tr>
@@ -32040,7 +32033,6 @@ public final class R {
      * @see #MapAttrs_uiMapToolbar
      * @see #MapAttrs_uiRotateGestures
      * @see #MapAttrs_uiScrollGestures
-     * @see #MapAttrs_uiScrollGesturesDuringRotateOrZoom
      * @see #MapAttrs_uiTiltGestures
      * @see #MapAttrs_uiZoomControls
      * @see #MapAttrs_uiZoomGestures
@@ -32053,7 +32045,7 @@ public final class R {
       0x7f030211, 0x7f030212, 0x7f030213, 0x7f030214, 
       0x7f030273, 0x7f030276, 0x7f030420, 0x7f030421, 
       0x7f030422, 0x7f030423, 0x7f030424, 0x7f030425, 
-      0x7f030426, 0x7f030427, 0x7f03042e, 0x7f03044d
+      0x7f030426, 0x7f03042d, 0x7f03044c
     };
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#ambientEnabled}
@@ -32235,16 +32227,6 @@ public final class R {
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#uiScrollGesturesDuringRotateOrZoom}
-     * attribute's value can be found in the {@link #MapAttrs} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.ivilsoftware.xamarinmaps:uiScrollGesturesDuringRotateOrZoom
-     */
-    public static final int MapAttrs_uiScrollGesturesDuringRotateOrZoom=18;
-    /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
@@ -32253,7 +32235,7 @@ public final class R {
      *
      * @attr name com.ivilsoftware.xamarinmaps:uiTiltGestures
      */
-    public static final int MapAttrs_uiTiltGestures=19;
+    public static final int MapAttrs_uiTiltGestures=18;
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -32263,7 +32245,7 @@ public final class R {
      *
      * @attr name com.ivilsoftware.xamarinmaps:uiZoomControls
      */
-    public static final int MapAttrs_uiZoomControls=20;
+    public static final int MapAttrs_uiZoomControls=19;
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -32273,7 +32255,7 @@ public final class R {
      *
      * @attr name com.ivilsoftware.xamarinmaps:uiZoomGestures
      */
-    public static final int MapAttrs_uiZoomGestures=21;
+    public static final int MapAttrs_uiZoomGestures=20;
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -32283,7 +32265,7 @@ public final class R {
      *
      * @attr name com.ivilsoftware.xamarinmaps:useViewLifecycle
      */
-    public static final int MapAttrs_useViewLifecycle=22;
+    public static final int MapAttrs_useViewLifecycle=21;
     /**
      * <p>This symbol is the offset where the {@link com.ivilsoftware.xamarinmaps.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -32293,7 +32275,7 @@ public final class R {
      *
      * @attr name com.ivilsoftware.xamarinmaps:zOrderOnTop
      */
-    public static final int MapAttrs_zOrderOnTop=23;
+    public static final int MapAttrs_zOrderOnTop=22;
     /**
      * Attributes that can be used with a MaterialAlertDialog.
      * <p>Includes the following attributes:</p>
@@ -32995,8 +32977,8 @@ public final class R {
      */
     public static final int[] MaterialCalendar={
       0x0101020d, 0x7f03012f, 0x7f030130, 0x7f030131, 
-      0x7f030132, 0x7f0302d5, 0x7f030322, 0x7f03044a, 
-      0x7f03044b, 0x7f03044c
+      0x7f030132, 0x7f0302d5, 0x7f030322, 0x7f030449, 
+      0x7f03044a, 0x7f03044b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowFullscreen}
@@ -33492,7 +33474,7 @@ public final class R {
      * @see #MaterialCheckBox_useMaterialThemeColors
      */
     public static final int[] MaterialCheckBox={
-      0x7f030086, 0x7f03042c
+      0x7f030086, 0x7f03042b
     };
     /**
      * <p>
@@ -33534,7 +33516,7 @@ public final class R {
      * @see #MaterialRadioButton_useMaterialThemeColors
      */
     public static final int[] MaterialRadioButton={
-      0x7f030086, 0x7f03042c
+      0x7f030086, 0x7f03042b
     };
     /**
      * <p>
@@ -35794,7 +35776,7 @@ public final class R {
      * @see #NavDeepLink_uri
      */
     public static final int[] NavDeepLink={
-      0x010104ee, 0x7f030003, 0x7f0302a0, 0x7f03042a
+      0x010104ee, 0x7f030003, 0x7f0302a0, 0x7f030429
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#autoVerify}
@@ -37108,7 +37090,7 @@ public final class R {
       0x7f030164, 0x7f030166, 0x7f0301b7, 0x7f0301d1, 
       0x7f0301d6, 0x7f0301f0, 0x7f030209, 0x7f030216, 
       0x7f0302e0, 0x7f0302fb, 0x7f030341, 0x7f03034d, 
-      0x7f03035a, 0x7f03038a, 0x7f0303f6, 0x7f03043f
+      0x7f03035a, 0x7f03038a, 0x7f0303f6, 0x7f03043e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -38090,7 +38072,7 @@ public final class R {
      */
     public static final int[] PropertySet={
       0x010100dc, 0x0101031f, 0x7f030241, 0x7f0302c4, 
-      0x7f030436
+      0x7f030435
     };
     /**
      * <p>
@@ -38203,7 +38185,7 @@ public final class R {
      * @see #RangeSlider_values
      */
     public static final int[] RangeSlider={
-      0x7f0302a4, 0x7f03042f
+      0x7f0302a4, 0x7f03042e
     };
     /**
      * <p>
@@ -38597,7 +38579,7 @@ public final class R {
       0x7f0300cf, 0x7f0300f5, 0x7f030134, 0x7f0301bb, 
       0x7f0301da, 0x7f030216, 0x7f03031e, 0x7f03031f, 
       0x7f03033b, 0x7f03033c, 0x7f030380, 0x7f030389, 
-      0x7f030437
+      0x7f030436
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -38907,7 +38889,7 @@ public final class R {
      */
     public static final int[] SeekBarPreference={
       0x010100f2, 0x01010136, 0x7f030029, 0x7f0302a1, 
-      0x7f03033e, 0x7f030354, 0x7f030429
+      0x7f03033e, 0x7f030354, 0x7f030428
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -40614,7 +40596,7 @@ public final class R {
      * @see #SwitchMaterial_useMaterialThemeColors
      */
     public static final int[] SwitchMaterial={
-      0x7f03042c
+      0x7f03042b
     };
     /**
      * <p>
@@ -44460,7 +44442,7 @@ public final class R {
       0x010100d0, 0x7f030001, 0x7f030002, 0x7f0300c9, 
       0x7f03015c, 0x7f0301db, 0x7f0301dc, 0x7f0302c1, 
       0x7f0302c6, 0x7f0302de, 0x7f0302f4, 0x7f030346, 
-      0x7f030417, 0x7f030428, 0x7f030432
+      0x7f030417, 0x7f030427, 0x7f030431
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}

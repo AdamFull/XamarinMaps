@@ -234,7 +234,14 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Build.Download/0.4.7": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -374,18 +381,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/5.0.0.2196": {
+      "Xamarin.Forms.GoogleMaps/3.2.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Google.iOS.Maps": "2.5.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
+      "Xamarin.Google.iOS.Maps/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.7"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
       "XamarinMaps/1.0.0": {
@@ -395,9 +417,9 @@
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.Maps": "5.0.0.2196"
+          "Xamarin.Forms.GoogleMaps": "3.2.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -628,7 +650,14 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Build.Download/0.4.7": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -768,18 +797,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/5.0.0.2196": {
+      "Xamarin.Forms.GoogleMaps/3.2.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Google.iOS.Maps": "2.5.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
+      "Xamarin.Google.iOS.Maps/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.7"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
       "XamarinMaps/1.0.0": {
@@ -789,9 +833,9 @@
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.Maps": "5.0.0.2196"
+          "Xamarin.Forms.GoogleMaps": "3.2.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -1022,7 +1066,14 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Build.Download/0.4.7": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1162,18 +1213,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/5.0.0.2196": {
+      "Xamarin.Forms.GoogleMaps/3.2.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Google.iOS.Maps": "2.5.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
+      "Xamarin.Google.iOS.Maps/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.7"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
       "XamarinMaps/1.0.0": {
@@ -1183,9 +1249,9 @@
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.Maps": "5.0.0.2196"
+          "Xamarin.Forms.GoogleMaps": "3.2.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -1416,7 +1482,14 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Build.Download/0.4.7": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1556,18 +1629,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/5.0.0.2196": {
+      "Xamarin.Forms.GoogleMaps/3.2.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Google.iOS.Maps": "2.5.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
+      "Xamarin.Google.iOS.Maps/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.7"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
       "XamarinMaps/1.0.0": {
@@ -1577,9 +1665,9 @@
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.Maps": "5.0.0.2196"
+          "Xamarin.Forms.GoogleMaps": "3.2.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -2086,10 +2174,28 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.6.1": {
-      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
+    "Xamarin.Build.Download/0.4.7": {
+      "sha512": "bn7kFhBx0olu+TNh3GhGDD3fELAjlIFMQkyJuQAWpTIk14Ug9NHwHlHjOryN4BbBOaAAX3b5MqhU+hSfDXXguA==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1",
+      "path": "xamarin.build.download/0.4.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.7.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.7.0": {
+      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+      "type": "package",
+      "path": "xamarin.essentials/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2098,15 +2204,6 @@
         "lib/monoandroid10.0/Xamarin.Essentials.dll",
         "lib/monoandroid10.0/Xamarin.Essentials.pdb",
         "lib/monoandroid10.0/Xamarin.Essentials.xml",
-        "lib/monoandroid80/Xamarin.Essentials.dll",
-        "lib/monoandroid80/Xamarin.Essentials.pdb",
-        "lib/monoandroid80/Xamarin.Essentials.xml",
-        "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.pdb",
-        "lib/monoandroid81/Xamarin.Essentials.xml",
-        "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.pdb",
-        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -2133,7 +2230,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1.nupkg.sha512",
+        "xamarin.essentials.1.7.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -2353,38 +2450,37 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/5.0.0.2196": {
-      "sha512": "A54S2UdaJqDl9tvbbLjCSSI6+DO+R2AujX2WqH+1S8kNeu2Sfl/5NZKtTqmneyAnxPMa9JHFRTA6m6EHyx7jPA==",
+    "Xamarin.Forms.GoogleMaps/3.2.1": {
+      "sha512": "o1FwiP84F6VGfz9mZni/httB4WL05PHT5dhqyUiTya1RWQYHASOEN2c/zsC1enq2ilkuPziuvUcInSp244CnLQ==",
       "type": "package",
-      "path": "xamarin.forms.maps/5.0.0.2196",
+      "path": "xamarin.forms.googlemaps/3.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Assets/xamarin_128x128.png",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
-        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.5.0.0.2196.nupkg.sha512",
-        "xamarin.forms.maps.nuspec"
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.3.2.1.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
+      ]
+    },
+    "Xamarin.Google.iOS.Maps/2.5.0": {
+      "sha512": "Y+W2SRHTfO/mCsDwbPB05KG4yTcxfdqm2lBoLpVM3kdD9fOSEFdTB3FW+W7QLc1pe/5VSVg0FkR5NrmJfEIbiw==",
+      "type": "package",
+      "path": "xamarin.google.ios.maps/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Xamarin.Google.iOS.Maps.targets",
+        "lib/Xamarin.iOS10/Google.Maps.dll",
+        "xamarin.google.ios.maps.2.5.0.nupkg.sha512",
+        "xamarin.google.ios.maps.nuspec"
       ]
     },
     "XamarinMaps/1.0.0": {
@@ -2395,9 +2491,9 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
-      "Xamarin.Forms.Maps >= 5.0.0.2196",
+      "Xamarin.Forms.GoogleMaps >= 3.2.1",
       "XamarinMaps >= 1.0.0"
     ]
   },
@@ -2445,15 +2541,15 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1, )"
+            "version": "[1.7.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
           },
-          "Xamarin.Forms.Maps": {
+          "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
-            "version": "[5.0.0.2196, )"
+            "version": "[3.2.1, )"
           }
         }
       }

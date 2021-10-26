@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinMaps.Services;
 
 namespace XamarinMaps
 {
@@ -9,8 +10,8 @@ namespace XamarinMaps
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            GoogleMapsApiService.Initialize(Constants.GoogleMapsApiKey);
+            MainPage = new NavigationPage(new MainPage()) { BarTextColor = Color.Black };
         }
 
         protected override void OnStart()

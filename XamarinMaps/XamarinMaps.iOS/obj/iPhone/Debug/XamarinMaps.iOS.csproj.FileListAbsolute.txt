@@ -1,0 +1,8 @@
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\optimized\
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\XamarinMaps.iOS.csproj.AssemblyReference.cache
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\XamarinMaps.iOS.csproj.CoreCompileInputs.cache

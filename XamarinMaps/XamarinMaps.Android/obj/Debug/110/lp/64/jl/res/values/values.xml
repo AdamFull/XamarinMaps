@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources>
-<!-- java/com/google/android/gmscore/dev/client/maps/res/values/maps_attrs.xml -->
+<!-- java/com/google/android/gmscore/integ/client/maps/res/values/maps_attrs.xml -->
 <eat-comment/>
 <declare-styleable name="MapAttrs"><attr name="mapType">
 <enum name="none" value="0"/>
@@ -32,8 +32,6 @@
 <attr name="uiRotateGestures" format="boolean"/>
 
 <attr name="uiScrollGestures" format="boolean"/>
-
-<attr name="uiScrollGesturesDuringRotateOrZoom" format="boolean"/>
 
 <attr name="uiTiltGestures" format="boolean"/>
 

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMaps.Android", "Xama
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMaps.iOS", "XamarinMaps\XamarinMaps.iOS\XamarinMaps.iOS.csproj", "{6D5482EC-9BB7-4FBC-82AB-63AB0F044265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMaps", "XamarinMaps\XamarinMaps\XamarinMaps.csproj", "{0A5B8766-07D5-4708-A8E1-ACD108AF6FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinMaps", "XamarinMaps\XamarinMaps\XamarinMaps.csproj", "{0A5B8766-07D5-4708-A8E1-ACD108AF6FBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -373,21 +373,21 @@ public final class R {
 		public static final int trackTint = 0x7f030414;
 		public static final int trackTintMode = 0x7f030415;
 		public static final int ttcIndex = 0x7f03041f;
-		public static final int updatesContinuously = 0x7f030429;
-		public static final int useSimpleSummaryProvider = 0x7f03042d;
-		public static final int viewInflaterClass = 0x7f030431;
-		public static final int voiceIcon = 0x7f030437;
-		public static final int widgetLayout = 0x7f03043f;
-		public static final int windowActionBar = 0x7f030440;
-		public static final int windowActionBarOverlay = 0x7f030441;
-		public static final int windowActionModeOverlay = 0x7f030442;
-		public static final int windowFixedHeightMajor = 0x7f030443;
-		public static final int windowFixedHeightMinor = 0x7f030444;
-		public static final int windowFixedWidthMajor = 0x7f030445;
-		public static final int windowFixedWidthMinor = 0x7f030446;
-		public static final int windowMinWidthMajor = 0x7f030447;
-		public static final int windowMinWidthMinor = 0x7f030448;
-		public static final int windowNoTitle = 0x7f030449;
+		public static final int updatesContinuously = 0x7f030428;
+		public static final int useSimpleSummaryProvider = 0x7f03042c;
+		public static final int viewInflaterClass = 0x7f030430;
+		public static final int voiceIcon = 0x7f030436;
+		public static final int widgetLayout = 0x7f03043e;
+		public static final int windowActionBar = 0x7f03043f;
+		public static final int windowActionBarOverlay = 0x7f030440;
+		public static final int windowActionModeOverlay = 0x7f030441;
+		public static final int windowFixedHeightMajor = 0x7f030442;
+		public static final int windowFixedHeightMinor = 0x7f030443;
+		public static final int windowFixedWidthMajor = 0x7f030444;
+		public static final int windowFixedWidthMinor = 0x7f030445;
+		public static final int windowMinWidthMajor = 0x7f030446;
+		public static final int windowMinWidthMinor = 0x7f030447;
+		public static final int windowNoTitle = 0x7f030448;
 	}
 	public static final class bool {
 		public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -972,15 +972,15 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f0e0018;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0e0019;
 		public static final int abc_toolbar_collapse_description = 0x7f0e001a;
-		public static final int copy = 0x7f0e0035;
-		public static final int expand_button_title = 0x7f0e0038;
-		public static final int not_set = 0x7f0e007b;
-		public static final int preference_copied = 0x7f0e0082;
-		public static final int search_menu_title = 0x7f0e0083;
-		public static final int status_bar_notification_info_overflow = 0x7f0e0084;
-		public static final int summary_collapsed_preference_list = 0x7f0e0085;
-		public static final int v7_preference_off = 0x7f0e0086;
-		public static final int v7_preference_on = 0x7f0e0087;
+		public static final int copy = 0x7f0e0034;
+		public static final int expand_button_title = 0x7f0e0037;
+		public static final int not_set = 0x7f0e007a;
+		public static final int preference_copied = 0x7f0e0081;
+		public static final int search_menu_title = 0x7f0e0082;
+		public static final int status_bar_notification_info_overflow = 0x7f0e0083;
+		public static final int summary_collapsed_preference_list = 0x7f0e0084;
+		public static final int v7_preference_off = 0x7f0e0085;
+		public static final int v7_preference_on = 0x7f0e0086;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f0f0000;
@@ -1475,7 +1475,7 @@ public final class R {
 		public static final int AppCompatTextView_lineHeight = 18;
 		public static final int AppCompatTextView_textAllCaps = 19;
 		public static final int AppCompatTextView_textLocale = 20;
-		public static final int[] AppCompatTheme = new int[] { 0x01010057, 0x010100ae, 0x7f030004, 0x7f030005, 0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009, 0x7f03000a, 0x7f03000b, 0x7f03000c, 0x7f03000d, 0x7f03000e, 0x7f03000f, 0x7f030010, 0x7f030012, 0x7f030013, 0x7f030014, 0x7f030015, 0x7f030016, 0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 0x7f03001f, 0x7f030020, 0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 0x7f030028, 0x7f03002a, 0x7f03002b, 0x7f03002c, 0x7f03002d, 0x7f030041, 0x7f030069, 0x7f03007a, 0x7f03007b, 0x7f03007c, 0x7f03007d, 0x7f03007e, 0x7f030084, 0x7f030085, 0x7f0300a3, 0x7f0300ac, 0x7f0300df, 0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 0x7f0300ec, 0x7f0300ed, 0x7f0300f4, 0x7f03010d, 0x7f03013c, 0x7f030141, 0x7f030142, 0x7f030147, 0x7f030149, 0x7f030159, 0x7f03015a, 0x7f03015d, 0x7f03015e, 0x7f030160, 0x7f0301cd, 0x7f0301df, 0x7f030264, 0x7f030265, 0x7f030266, 0x7f030267, 0x7f03026a, 0x7f03026b, 0x7f03026c, 0x7f03026d, 0x7f03026e, 0x7f03026f, 0x7f030270, 0x7f030271, 0x7f030272, 0x7f0302ec, 0x7f0302ed, 0x7f0302ee, 0x7f030307, 0x7f030309, 0x7f030321, 0x7f030323, 0x7f030324, 0x7f030325, 0x7f03033d, 0x7f030340, 0x7f030342, 0x7f030343, 0x7f030363, 0x7f030364, 0x7f030392, 0x7f0303c1, 0x7f0303c3, 0x7f0303c4, 0x7f0303c5, 0x7f0303c7, 0x7f0303c8, 0x7f0303c9, 0x7f0303ca, 0x7f0303d2, 0x7f0303d3, 0x7f030404, 0x7f030405, 0x7f030406, 0x7f030407, 0x7f030431, 0x7f030440, 0x7f030441, 0x7f030442, 0x7f030443, 0x7f030444, 0x7f030445, 0x7f030446, 0x7f030447, 0x7f030448, 0x7f030449 };
+		public static final int[] AppCompatTheme = new int[] { 0x01010057, 0x010100ae, 0x7f030004, 0x7f030005, 0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009, 0x7f03000a, 0x7f03000b, 0x7f03000c, 0x7f03000d, 0x7f03000e, 0x7f03000f, 0x7f030010, 0x7f030012, 0x7f030013, 0x7f030014, 0x7f030015, 0x7f030016, 0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 0x7f03001f, 0x7f030020, 0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 0x7f030028, 0x7f03002a, 0x7f03002b, 0x7f03002c, 0x7f03002d, 0x7f030041, 0x7f030069, 0x7f03007a, 0x7f03007b, 0x7f03007c, 0x7f03007d, 0x7f03007e, 0x7f030084, 0x7f030085, 0x7f0300a3, 0x7f0300ac, 0x7f0300df, 0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 0x7f0300ec, 0x7f0300ed, 0x7f0300f4, 0x7f03010d, 0x7f03013c, 0x7f030141, 0x7f030142, 0x7f030147, 0x7f030149, 0x7f030159, 0x7f03015a, 0x7f03015d, 0x7f03015e, 0x7f030160, 0x7f0301cd, 0x7f0301df, 0x7f030264, 0x7f030265, 0x7f030266, 0x7f030267, 0x7f03026a, 0x7f03026b, 0x7f03026c, 0x7f03026d, 0x7f03026e, 0x7f03026f, 0x7f030270, 0x7f030271, 0x7f030272, 0x7f0302ec, 0x7f0302ed, 0x7f0302ee, 0x7f030307, 0x7f030309, 0x7f030321, 0x7f030323, 0x7f030324, 0x7f030325, 0x7f03033d, 0x7f030340, 0x7f030342, 0x7f030343, 0x7f030363, 0x7f030364, 0x7f030392, 0x7f0303c1, 0x7f0303c3, 0x7f0303c4, 0x7f0303c5, 0x7f0303c7, 0x7f0303c8, 0x7f0303c9, 0x7f0303ca, 0x7f0303d2, 0x7f0303d3, 0x7f030404, 0x7f030405, 0x7f030406, 0x7f030407, 0x7f030430, 0x7f03043f, 0x7f030440, 0x7f030441, 0x7f030442, 0x7f030443, 0x7f030444, 0x7f030445, 0x7f030446, 0x7f030447, 0x7f030448 };
 		public static final int AppCompatTheme_actionBarDivider = 2;
 		public static final int AppCompatTheme_actionBarItemBackground = 3;
 		public static final int AppCompatTheme_actionBarPopupTheme = 4;
@@ -1655,7 +1655,7 @@ public final class R {
 		public static final int DrawerArrowToggle_gapBetweenBars = 5;
 		public static final int DrawerArrowToggle_spinBars = 6;
 		public static final int DrawerArrowToggle_thickness = 7;
-		public static final int[] EditTextPreference = new int[] { 0x7f03042d };
+		public static final int[] EditTextPreference = new int[] { 0x7f03042c };
 		public static final int EditTextPreference_useSimpleSummaryProvider = 0;
 		public static final int[] FontFamily = new int[] { 0x7f0301ab, 0x7f0301ac, 0x7f0301ad, 0x7f0301ae, 0x7f0301af, 0x7f0301b0, 0x7f0301b1 };
 		public static final int FontFamily_fontProviderAuthority = 0;
@@ -1716,7 +1716,7 @@ public final class R {
 		public static final int[] ListPopupWindow = new int[] { 0x010102ac, 0x010102ad };
 		public static final int ListPopupWindow_android_dropDownHorizontalOffset = 0;
 		public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
-		public static final int[] ListPreference = new int[] { 0x010100b2, 0x010101f8, 0x7f030171, 0x7f030172, 0x7f03042d };
+		public static final int[] ListPreference = new int[] { 0x010100b2, 0x010101f8, 0x7f030171, 0x7f030172, 0x7f03042c };
 		public static final int ListPreference_android_entries = 0;
 		public static final int ListPreference_android_entryValues = 1;
 		public static final int ListPreference_entries = 2;
@@ -1774,7 +1774,7 @@ public final class R {
 		public static final int PopupWindow_overlapAnchor = 2;
 		public static final int[] PopupWindowBackgroundState = new int[] { 0x7f030374 };
 		public static final int PopupWindowBackgroundState_state_above_anchor = 0;
-		public static final int[] Preference = new int[] { 0x01010002, 0x0101000d, 0x0101000e, 0x010100f2, 0x010101e1, 0x010101e6, 0x010101e8, 0x010101e9, 0x010101ea, 0x010101eb, 0x010101ec, 0x010101ed, 0x010101ee, 0x010102e3, 0x0101055c, 0x01010561, 0x7f03002e, 0x7f030030, 0x7f030136, 0x7f030139, 0x7f030164, 0x7f030166, 0x7f0301b7, 0x7f0301d1, 0x7f0301d6, 0x7f0301f0, 0x7f030209, 0x7f030216, 0x7f0302e0, 0x7f0302fb, 0x7f030341, 0x7f03034d, 0x7f03035a, 0x7f03038a, 0x7f0303f6, 0x7f03043f };
+		public static final int[] Preference = new int[] { 0x01010002, 0x0101000d, 0x0101000e, 0x010100f2, 0x010101e1, 0x010101e6, 0x010101e8, 0x010101e9, 0x010101ea, 0x010101eb, 0x010101ec, 0x010101ed, 0x010101ee, 0x010102e3, 0x0101055c, 0x01010561, 0x7f03002e, 0x7f030030, 0x7f030136, 0x7f030139, 0x7f030164, 0x7f030166, 0x7f0301b7, 0x7f0301d1, 0x7f0301d6, 0x7f0301f0, 0x7f030209, 0x7f030216, 0x7f0302e0, 0x7f0302fb, 0x7f030341, 0x7f03034d, 0x7f03035a, 0x7f03038a, 0x7f0303f6, 0x7f03043e };
 		public static final int Preference_allowDividerAbove = 16;
 		public static final int Preference_allowDividerBelow = 17;
 		public static final int Preference_android_defaultValue = 11;
@@ -1862,7 +1862,7 @@ public final class R {
 		public static final int RecyclerView_reverseLayout = 9;
 		public static final int RecyclerView_spanCount = 10;
 		public static final int RecyclerView_stackFromEnd = 11;
-		public static final int[] SearchView = new int[] { 0x010100da, 0x0101011f, 0x01010220, 0x01010264, 0x7f0300cf, 0x7f0300f5, 0x7f030134, 0x7f0301bb, 0x7f0301da, 0x7f030216, 0x7f03031e, 0x7f03031f, 0x7f03033b, 0x7f03033c, 0x7f030380, 0x7f030389, 0x7f030437 };
+		public static final int[] SearchView = new int[] { 0x010100da, 0x0101011f, 0x01010220, 0x01010264, 0x7f0300cf, 0x7f0300f5, 0x7f030134, 0x7f0301bb, 0x7f0301da, 0x7f030216, 0x7f03031e, 0x7f03031f, 0x7f03033b, 0x7f03033c, 0x7f030380, 0x7f030389, 0x7f030436 };
 		public static final int SearchView_android_focusable = 0;
 		public static final int SearchView_android_imeOptions = 3;
 		public static final int SearchView_android_inputType = 2;
@@ -1880,7 +1880,7 @@ public final class R {
 		public static final int SearchView_submitBackground = 14;
 		public static final int SearchView_suggestionRowLayout = 15;
 		public static final int SearchView_voiceIcon = 16;
-		public static final int[] SeekBarPreference = new int[] { 0x010100f2, 0x01010136, 0x7f030029, 0x7f0302a1, 0x7f03033e, 0x7f030354, 0x7f030429 };
+		public static final int[] SeekBarPreference = new int[] { 0x010100f2, 0x01010136, 0x7f030029, 0x7f0302a1, 0x7f03033e, 0x7f030354, 0x7f030428 };
 		public static final int SeekBarPreference_adjustable = 2;
 		public static final int SeekBarPreference_android_layout = 0;
 		public static final int SeekBarPreference_android_max = 1;

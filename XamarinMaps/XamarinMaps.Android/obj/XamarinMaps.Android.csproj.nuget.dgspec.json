@@ -42,17 +42,21 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },
-            "Xamarin.Forms.Maps": {
+            "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[3.2.1, )"
             }
           }
         }
@@ -118,15 +122,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },
-            "Xamarin.Forms.Maps": {
+            "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[3.2.1, )"
             }
           },
           "imports": [

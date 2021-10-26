@@ -33,7 +33,7 @@ public final class R {
 		public static final int popUpToInclusive = 0x7f030305;
 		public static final int startDestination = 0x7f03036e;
 		public static final int ttcIndex = 0x7f03041f;
-		public static final int uri = 0x7f03042a;
+		public static final int uri = 0x7f030429;
 	}
 	public static final class color {
 		public static final int notification_action_color_filter = 0x7f0500c6;
@@ -161,7 +161,7 @@ public final class R {
 		public static final int notification_template_part_time = 0x7f0b006d;
 	}
 	public static final class string {
-		public static final int status_bar_notification_info_overflow = 0x7f0e0084;
+		public static final int status_bar_notification_info_overflow = 0x7f0e0083;
 	}
 	public static final class style {
 		public static final int TextAppearance_Compat_Notification = 0x7f0f0183;
@@ -226,7 +226,7 @@ public final class R {
 		public static final int NavArgument_android_name = 0;
 		public static final int NavArgument_argType = 2;
 		public static final int NavArgument_nullable = 3;
-		public static final int[] NavDeepLink = new int[] { 0x010104ee, 0x7f030003, 0x7f0302a0, 0x7f03042a };
+		public static final int[] NavDeepLink = new int[] { 0x010104ee, 0x7f030003, 0x7f0302a0, 0x7f030429 };
 		public static final int NavDeepLink_action = 1;
 		public static final int NavDeepLink_android_autoVerify = 0;
 		public static final int NavDeepLink_mimeType = 2;
