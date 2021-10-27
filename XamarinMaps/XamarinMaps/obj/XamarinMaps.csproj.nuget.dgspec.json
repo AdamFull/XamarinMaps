@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "BarcodeScanner.XF": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
             "Google.AdWords": {
               "target": "Package",
               "version": "[24.16.0, )"
@@ -58,9 +62,21 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Xam.Plugin.Geolocator": {
               "target": "Package",
               "version": "[4.5.0.6, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

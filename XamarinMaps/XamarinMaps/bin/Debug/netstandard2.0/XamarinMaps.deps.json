@@ -9,10 +9,14 @@
     ".NETStandard,Version=v2.0/": {
       "XamarinMaps/1.0.0": {
         "dependencies": {
+          "BarcodeScanner.XF": "5.0.9",
           "Google.AdWords": "24.16.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.Permissions": "6.0.1",
+          "PropertyChanged.Fody": "3.4.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.GoogleMaps": "3.2.1",
@@ -22,6 +26,20 @@
           "XamarinMaps.dll": {}
         }
       },
+      "BarcodeScanner.XF/5.0.9": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BarcodeScanner.XF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Fody/6.5.1": {},
       "Google.Ads.Common/9.5.1": {
         "dependencies": {
           "Google.Apis.Auth": "1.36.1",
@@ -136,6 +154,28 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.4.0.0"
           }
         }
       },
@@ -291,6 +331,7 @@
           }
         }
       },
+      "Xamarin.Build.Download/0.10.0": {},
       "Xamarin.Essentials/1.7.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -344,6 +385,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BarcodeScanner.XF/5.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/eEBv+NrOWQjxK+BJ8fiFz5GUZmmne+gh+CDR8CE/rHbXlVX4lsOhJsyvzK/XIxVuMh1QjJFEZnCxpSvlxOU3g==",
+      "path": "barcodescanner.xf/5.0.9",
+      "hashPath": "barcodescanner.xf.5.0.9.nupkg.sha512"
+    },
+    "Fody/6.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DEw9rPG5vrpaK4vPPze0f4q6Zd0mfzjGNKy49nrmINkftIHpkyf8KH+uC/qF8y6v1askPWu9NbJS9bkmN5wXaA==",
+      "path": "fody/6.5.1",
+      "hashPath": "fody.6.5.1.nupkg.sha512"
     },
     "Google.Ads.Common/9.5.1": {
       "type": "package",
@@ -421,6 +476,20 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Plugin.Permissions/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
+      "path": "plugin.permissions/6.0.1",
+      "hashPath": "plugin.permissions.6.0.1.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "path": "propertychanged.fody/3.4.0",
+      "hashPath": "propertychanged.fody.3.4.0.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",
@@ -526,6 +595,13 @@
       "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
       "path": "xam.plugin.geolocator/4.5.0.6",
       "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
+    },
+    "Xamarin.Build.Download/0.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XiQNxx6Jox00O80sJRlZv6jXDZ/r3KC7SMwzQNQcD1gZ+vsZyJH3LcSpdJ5NiZhRrWZlTGNSbooHsOBF7lBOyQ==",
+      "path": "xamarin.build.download/0.10.0",
+      "hashPath": "xamarin.build.download.0.10.0.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

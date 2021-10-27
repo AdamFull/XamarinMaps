@@ -5,13 +5,14 @@ public class GoogleApiClientOnConnectionFailedListenerImpl
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener
+		com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener,
+		com.google.android.gms.common.api.internal.OnConnectionFailedListener
 {
 /** @hide */
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onConnectionFailed:(Lcom/google/android/gms/common/ConnectionResult;)V:GetOnConnectionFailed_Lcom_google_android_gms_common_ConnectionResult_Handler:Android.Gms.Common.Apis.GoogleApiClient/IOnConnectionFailedListenerInvoker, Xamarin.GooglePlayServices.Base\n" +
+			"n_onConnectionFailed:(Lcom/google/android/gms/common/ConnectionResult;)V:GetOnConnectionFailed_Lcom_google_android_gms_common_ConnectionResult_Handler:Android.Gms.Common.Api.Internal.IOnConnectionFailedListenerInvoker, Xamarin.GooglePlayServices.Base\n" +
 			"";
 		mono.android.Runtime.register ("Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl, Xamarin.GooglePlayServices.Base", GoogleApiClientOnConnectionFailedListenerImpl.class, __md_methods);
 	}

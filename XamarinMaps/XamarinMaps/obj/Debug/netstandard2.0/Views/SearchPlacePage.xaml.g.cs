@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XamarinMaps.Views.SearchPlacePage.xaml", "Views/SearchPlacePage.xaml", typeof(global::XamarinMaps.SearchPlacePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XamarinMaps.Views.SearchPlacePage.xaml", "Views/SearchPlacePage.xaml", typeof(global::XamarinMaps.Views.SearchPlacePage))]
 
-namespace XamarinMaps {
+namespace XamarinMaps.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SearchPlacePage.xaml")]

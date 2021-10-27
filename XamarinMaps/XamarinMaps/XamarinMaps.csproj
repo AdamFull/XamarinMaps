@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,9 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BarcodeScanner.XF" Version="5.0.9" />
     <PackageReference Include="Google.AdWords" Version="24.16.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Xamarin.Build.Download" Version="0.10.0" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Forms.GoogleMaps" Version="3.2.1" />

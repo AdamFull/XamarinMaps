@@ -5,14 +5,15 @@ public class GoogleApiClientConnectionCallbacksImpl
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks
+		com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks,
+		com.google.android.gms.common.api.internal.ConnectionCallbacks
 {
 /** @hide */
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onConnected:(Landroid/os/Bundle;)V:GetOnConnected_Landroid_os_Bundle_Handler:Android.Gms.Common.Apis.GoogleApiClient/IConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
-			"n_onConnectionSuspended:(I)V:GetOnConnectionSuspended_IHandler:Android.Gms.Common.Apis.GoogleApiClient/IConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
+			"n_onConnected:(Landroid/os/Bundle;)V:GetOnConnected_Landroid_os_Bundle_Handler:Android.Gms.Common.Api.Internal.IConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
+			"n_onConnectionSuspended:(I)V:GetOnConnectionSuspended_IHandler:Android.Gms.Common.Api.Internal.IConnectionCallbacksInvoker, Xamarin.GooglePlayServices.Base\n" +
 			"";
 		mono.android.Runtime.register ("Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl, Xamarin.GooglePlayServices.Base", GoogleApiClientConnectionCallbacksImpl.class, __md_methods);
 	}

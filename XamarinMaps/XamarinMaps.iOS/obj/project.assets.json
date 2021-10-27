@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "BarcodeScanner.XF/5.0.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.MLKit.Vision": "0.21.0",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        }
+      },
+      "Fody/6.5.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Google.Ads.Common/9.5.1": {
         "type": "package",
         "dependencies": {
@@ -120,13 +145,34 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/6.0.1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "System.Configuration.ConfigurationManager/4.5.0": {
@@ -234,11 +280,11 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Build.Download/0.4.7": {
+      "Xamarin.Build.Download/0.10.0": {
         "type": "package",
         "build": {
-          "build/Xamarin.Build.Download.props": {},
-          "build/Xamarin.Build.Download.targets": {}
+          "buildTransitive/Xamarin.Build.Download.props": {},
+          "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -256,6 +302,100 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Installations/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Common/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Common.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Vision/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0",
+          "Xamarin.Firebase.iOS.MLKit.Common": "0.21.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Vision.targets": {}
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
@@ -414,9 +554,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BarcodeScanner.XF": "5.0.9",
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.Permissions": "6.0.1",
+          "PropertyChanged.Fody": "3.4.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.GoogleMaps": "3.2.1"
@@ -430,6 +574,31 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "BarcodeScanner.XF/5.0.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.MLKit.Vision": "0.21.0",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        }
+      },
+      "Fody/6.5.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Google.Ads.Common/9.5.1": {
         "type": "package",
         "dependencies": {
@@ -548,13 +717,34 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/6.0.1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "System.Configuration.ConfigurationManager/4.5.0": {
@@ -650,11 +840,11 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Build.Download/0.4.7": {
+      "Xamarin.Build.Download/0.10.0": {
         "type": "package",
         "build": {
-          "build/Xamarin.Build.Download.props": {},
-          "build/Xamarin.Build.Download.targets": {}
+          "buildTransitive/Xamarin.Build.Download.props": {},
+          "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -672,6 +862,100 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Installations/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Common/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Common.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Vision/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0",
+          "Xamarin.Firebase.iOS.MLKit.Common": "0.21.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Vision.targets": {}
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
@@ -830,9 +1114,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BarcodeScanner.XF": "5.0.9",
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.Permissions": "6.0.1",
+          "PropertyChanged.Fody": "3.4.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.GoogleMaps": "3.2.1"
@@ -846,6 +1134,31 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "BarcodeScanner.XF/5.0.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.MLKit.Vision": "0.21.0",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        }
+      },
+      "Fody/6.5.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Google.Ads.Common/9.5.1": {
         "type": "package",
         "dependencies": {
@@ -964,13 +1277,34 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/6.0.1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "System.Configuration.ConfigurationManager/4.5.0": {
@@ -1066,11 +1400,11 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Build.Download/0.4.7": {
+      "Xamarin.Build.Download/0.10.0": {
         "type": "package",
         "build": {
-          "build/Xamarin.Build.Download.props": {},
-          "build/Xamarin.Build.Download.targets": {}
+          "buildTransitive/Xamarin.Build.Download.props": {},
+          "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -1088,6 +1422,100 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Installations/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Common/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Common.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Vision/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0",
+          "Xamarin.Firebase.iOS.MLKit.Common": "0.21.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Vision.targets": {}
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
@@ -1246,9 +1674,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BarcodeScanner.XF": "5.0.9",
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.Permissions": "6.0.1",
+          "PropertyChanged.Fody": "3.4.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.GoogleMaps": "3.2.1"
@@ -1262,6 +1694,31 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "BarcodeScanner.XF/5.0.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.MLKit.Vision": "0.21.0",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BarcodeScanner.XF.dll": {}
+        }
+      },
+      "Fody/6.5.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Google.Ads.Common/9.5.1": {
         "type": "package",
         "dependencies": {
@@ -1380,13 +1837,34 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/6.0.1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "System.Configuration.ConfigurationManager/4.5.0": {
@@ -1482,11 +1960,11 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Build.Download/0.4.7": {
+      "Xamarin.Build.Download/0.10.0": {
         "type": "package",
         "build": {
-          "build/Xamarin.Build.Download.props": {},
-          "build/Xamarin.Build.Download.targets": {}
+          "buildTransitive/Xamarin.Build.Download.props": {},
+          "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -1504,6 +1982,100 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Installations/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.Installations.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.InstanceID.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Common/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Common.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.MLKit.Vision/0.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.10.0",
+          "Xamarin.Firebase.iOS.Core": "6.10.4",
+          "Xamarin.Firebase.iOS.Installations": "1.7.0",
+          "Xamarin.Firebase.iOS.InstanceID": "4.8.0",
+          "Xamarin.Firebase.iOS.MLKit.Common": "0.21.0"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Firebase.MLKit.Vision.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Firebase.iOS.MLKit.Vision.targets": {}
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
@@ -1662,9 +2234,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BarcodeScanner.XF": "5.0.9",
           "Google.AdWords": "24.16.0",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.Permissions": "6.0.1",
+          "PropertyChanged.Fody": "3.4.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.GoogleMaps": "3.2.1"
@@ -1679,6 +2255,54 @@
     }
   },
   "libraries": {
+    "BarcodeScanner.XF/5.0.9": {
+      "sha512": "/eEBv+NrOWQjxK+BJ8fiFz5GUZmmne+gh+CDR8CE/rHbXlVX4lsOhJsyvzK/XIxVuMh1QjJFEZnCxpSvlxOU3g==",
+      "type": "package",
+      "path": "barcodescanner.xf/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "barcodescanner.xf.5.0.9.nupkg.sha512",
+        "barcodescanner.xf.nuspec",
+        "lib/monoandroid10.0/BarcodeScanner.XF.dll",
+        "lib/monoandroid11.0/BarcodeScanner.XF.dll",
+        "lib/netstandard2.0/BarcodeScanner.XF.dll",
+        "lib/xamarinios10/BarcodeScanner.XF.dll"
+      ]
+    },
+    "Fody/6.5.1": {
+      "sha512": "DEw9rPG5vrpaK4vPPze0f4q6Zd0mfzjGNKy49nrmINkftIHpkyf8KH+uC/qF8y6v1askPWu9NbJS9bkmN5wXaA==",
+      "type": "package",
+      "path": "fody/6.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.5.1.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
     "Google.Ads.Common/9.5.1": {
       "sha512": "bpW8/7WJ3GUQgqOH8vF+jPBLTkZzLvSnwMEvmRRGtPBQVQEhPIpLdJiZQaNd8YPAehaJXgB0SQ5NN2fcMzlZYg==",
       "type": "package",
@@ -1842,27 +2466,57 @@
         "packageIcon.png"
       ]
     },
-    "Plugin.Permissions/3.0.0.12": {
-      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+    "Plugin.Permissions/6.0.1": {
+      "sha512": "na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
       "type": "package",
-      "path": "plugin.permissions/3.0.0.12",
+      "path": "plugin.permissions/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/monoandroid71/Plugin.Permissions.dll",
-        "lib/monoandroid71/Plugin.Permissions.xml",
+        "lib/monoandroid10.0/Plugin.Permissions.dll",
+        "lib/monoandroid10.0/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
+        "lib/monoandroid90/Plugin.Permissions.dll",
+        "lib/monoandroid90/Plugin.Permissions.pdb",
         "lib/netstandard1.0/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
         "lib/netstandard2.0/Plugin.Permissions.dll",
-        "lib/netstandard2.0/Plugin.Permissions.xml",
-        "lib/uap10.0.10240/Plugin.Permissions.dll",
-        "lib/uap10.0.10240/Plugin.Permissions.pri",
-        "lib/uap10.0.10240/Plugin.Permissions.xml",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
         "lib/xamarinios10/Plugin.Permissions.dll",
-        "lib/xamarinios10/Plugin.Permissions.xml",
-        "plugin.permissions.3.0.0.12.nupkg.sha512",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "lib/xamarintvos10/Plugin.Permissions.dll",
+        "lib/xamarintvos10/Plugin.Permissions.pdb",
+        "plugin.permissions.6.0.1.nupkg.sha512",
         "plugin.permissions.nuspec",
         "readme.txt"
+      ]
+    },
+    "PropertyChanged.Fody/3.4.0": {
+      "sha512": "IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "type": "package",
+      "path": "propertychanged.fody/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.3.4.0.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
@@ -2174,21 +2828,25 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
-    "Xamarin.Build.Download/0.4.7": {
-      "sha512": "bn7kFhBx0olu+TNh3GhGDD3fELAjlIFMQkyJuQAWpTIk14Ug9NHwHlHjOryN4BbBOaAAX3b5MqhU+hSfDXXguA==",
+    "Xamarin.Build.Download/0.10.0": {
+      "sha512": "XiQNxx6Jox00O80sJRlZv6jXDZ/r3KC7SMwzQNQcD1gZ+vsZyJH3LcSpdJ5NiZhRrWZlTGNSbooHsOBF7lBOyQ==",
       "type": "package",
-      "path": "xamarin.build.download/0.4.7",
+      "path": "xamarin.build.download/0.10.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/Mono.Cecil.dll",
+        "THIRD-PARTY-NOTICE.txt",
+        "build/Microsoft.Win32.Registry.dll",
         "build/Newtonsoft.Json.dll",
-        "build/System.Net.Http.Formatting.dll",
         "build/Xamarin.Build.Download.dll",
         "build/Xamarin.Build.Download.props",
         "build/Xamarin.Build.Download.targets",
-        "xamarin.build.download.0.4.7.nupkg.sha512",
+        "buildTransitive/Microsoft.Win32.Registry.dll",
+        "buildTransitive/Newtonsoft.Json.dll",
+        "buildTransitive/Xamarin.Build.Download.dll",
+        "buildTransitive/Xamarin.Build.Download.props",
+        "buildTransitive/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.10.0.nupkg.sha512",
         "xamarin.build.download.nuspec"
       ]
     },
@@ -2232,6 +2890,85 @@
         "readme.txt",
         "xamarin.essentials.1.7.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.Core/6.10.4": {
+      "sha512": "b/cy0xmGUGlT/RxQt2mvlB9lL/tiNRcfsZsWH20lP7FI6H/xABAGAQU0MDKM84KTTOx8NN9CB95eY74NWKGQtw==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.core/6.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Xamarin.Firebase.iOS.Core.targets",
+        "buildTransitive/Xamarin.Firebase.iOS.Core.targets",
+        "firebaseioscore_128x128.png",
+        "lib/xamarinios10/Firebase.Core.dll",
+        "xamarin.firebase.ios.core.6.10.4.nupkg.sha512",
+        "xamarin.firebase.ios.core.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.Installations/1.7.0": {
+      "sha512": "Mt1LsibddUAGSDlXw2ka3NjK8WQrX0fhUxd953TYHokM6sBokO5gjgI8KRVsoANdO+OLm0o0LqBuApW+ZMSKjg==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.installations/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "firebaseiosinstallations_128x128.png",
+        "lib/xamarinios10/Firebase.Installations.dll",
+        "xamarin.firebase.ios.installations.1.7.0.nupkg.sha512",
+        "xamarin.firebase.ios.installations.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.InstanceID/4.8.0": {
+      "sha512": "70aWL3HOnvVyKm+nwfKT5UwhK9pOy2/PEF6ynwTgKEEkMwcBt7XovgQ994ig27Rm4EhCT2/TBi38jjPItyIDgQ==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.instanceid/4.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "firebaseiosinstanceid_128x128.png",
+        "lib/xamarinios10/Firebase.InstanceID.dll",
+        "xamarin.firebase.ios.instanceid.4.8.0.nupkg.sha512",
+        "xamarin.firebase.ios.instanceid.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.MLKit.Common/0.21.0": {
+      "sha512": "ss/VpY+1FWgIvnfW71NR/XrIbMxDIR19JedBwMA2ilAT+S68jCDONmmgmRJL5BU34HOTC58PimxwWT42rQv2ug==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.mlkit.common/0.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "build/Xamarin.Firebase.iOS.MLKit.Common.targets",
+        "buildTransitive/Xamarin.Firebase.iOS.MLKit.Common.targets",
+        "firebaseiosmlkitcommon_128x128.png",
+        "lib/xamarinios10/Firebase.MLKit.Common.dll",
+        "xamarin.firebase.ios.mlkit.common.0.21.0.nupkg.sha512",
+        "xamarin.firebase.ios.mlkit.common.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.MLKit.Vision/0.21.0": {
+      "sha512": "FVS7T1q+KKVDCMj+oysi4uPbgv6aI6YCeoKiJVjsUoZfh4e5Gmdm1EVGva3pI7pvKcocLbPOqgUgvQmQrS6wGQ==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.mlkit.vision/0.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "build/Xamarin.Firebase.iOS.MLKit.Vision.targets",
+        "buildTransitive/Xamarin.Firebase.iOS.MLKit.Vision.targets",
+        "firebaseiosmlkitvision_128x128.png",
+        "lib/xamarinios10/Firebase.MLKit.Vision.dll",
+        "xamarin.firebase.ios.mlkit.vision.0.21.0.nupkg.sha512",
+        "xamarin.firebase.ios.mlkit.vision.nuspec"
       ]
     },
     "Xamarin.Forms/5.0.0.2196": {
@@ -2491,6 +3228,10 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "BarcodeScanner.XF >= 5.0.9",
+      "Plugin.Permissions >= 6.0.1",
+      "PropertyChanged.Fody >= 3.4.0",
+      "Xamarin.Build.Download >= 0.10.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "Xamarin.Forms.GoogleMaps >= 3.2.1",
@@ -2539,6 +3280,22 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "BarcodeScanner.XF": {
+            "target": "Package",
+            "version": "[5.0.9, )"
+          },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
+          "Xamarin.Build.Download": {
+            "target": "Package",
+            "version": "[0.10.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

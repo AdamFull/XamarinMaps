@@ -2,7 +2,7 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps.iOS\AppDelegate.cs</string>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\AppDelegate.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps.Android\MainActivity.cs</string>
@@ -59,13 +59,22 @@
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\AssemblyInfo.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\adamfull\.nuget\packages\xamarin.essentials\1.7.0\readme.txt</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Constants.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Constants.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\IQRScannerService.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\QRScannerService.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>NuGet - Solution</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
