@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "XamarinMaps.Android.dll" comes first in this list. */
 		"XamarinMaps.Android.dll",
 		"BarcodeScanner.XF.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Google.Ads.Common.dll",
 		"Google.AdWords.dll",
@@ -129,6 +130,11 @@ public class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Vision.Common.dll",
 		"Xamarin.GooglePlayServices.Vision.dll",
 		"XamarinMaps.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"ZXing.Net.Mobile.Forms.Android.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

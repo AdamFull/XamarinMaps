@@ -87,3 +87,8 @@ C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhon
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\XamarinMaps.iOS.csproj.CopyComplete
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\XamarinMaps.iOS.exe
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\obj\iPhone\Debug\XamarinMaps.iOS.pdb
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\bin\iPhone\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\bin\iPhone\Debug\ZXingNetMobile.dll
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\bin\iPhone\Debug\zxing.portable.dll
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\bin\iPhone\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\bin\iPhone\Debug\ZXing.Net.Mobile.Forms.iOS.dll

@@ -656,7 +656,7 @@ Error Prone:
    limitations under the License.
 
 
-Guava JDK5, J2ObjC, JSpecify, SafeParcelable library:
+Guava JDK5, J2ObjC, SafeParcelable library:
 
 
                                  Apache License

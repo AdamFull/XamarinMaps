@@ -2,7 +2,7 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps.iOS\AppDelegate.cs</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps.iOS\AppDelegate.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps.Android\MainActivity.cs</string>
@@ -40,7 +40,7 @@
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Models\GooglePlace.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\ViewModels\MainViewModel.cs</string>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\ViewModels\MainViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Helpers\PolylineHelper.cs</string>
@@ -62,19 +62,16 @@
       <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Constants.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Services\IQRScannerService.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\adamfull\source\repos\xamarinmaps\XamarinMaps\XamarinMaps\Services\QRScannerService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\IQRScannerService.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\Services\QRScannerService.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>NuGet - Solution</string>
+      <string>C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\XamarinMaps.csproj</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TlklCqmf7L4BdtKD18kpjSimFlGkw78UiHU6Wrx0g+ZXGjClSiVRIbPqRvb+Vb6IdOnk5UoZDdG63L6AFHKbfg==",
+  "dgSpecHash": "Ip8tBSHq/glJXI+gARN/u2yNKrjEPM5Rct7PnUcLZkkD1A7nTdIrrSYCtLg5fTuq0GNWk7tGHveOluPCHZ5P/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\AdamFull\\source\\repos\\XamarinMaps\\XamarinMaps\\XamarinMaps\\XamarinMaps.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,9 @@
     "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
-    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms.googlemaps\\3.2.1\\xamarin.forms.googlemaps.3.2.1.nupkg.sha512"
+    "C:\\Users\\AdamFull\\.nuget\\packages\\xamarin.forms.googlemaps\\3.2.1\\xamarin.forms.googlemaps.3.2.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\AdamFull\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

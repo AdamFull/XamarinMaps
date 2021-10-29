@@ -550,6 +550,34 @@
           "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "XamarinMaps/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -563,7 +591,9 @@
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.GoogleMaps": "3.2.1"
+          "Xamarin.Forms.GoogleMaps": "3.2.1",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -1110,6 +1140,34 @@
           "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "XamarinMaps/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1123,7 +1181,9 @@
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.GoogleMaps": "3.2.1"
+          "Xamarin.Forms.GoogleMaps": "3.2.1",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -1670,6 +1730,34 @@
           "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "XamarinMaps/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1683,7 +1771,9 @@
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.GoogleMaps": "3.2.1"
+          "Xamarin.Forms.GoogleMaps": "3.2.1",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -2230,6 +2320,34 @@
           "build/Xamarin.Google.iOS.Maps.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "XamarinMaps/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2243,7 +2361,9 @@
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.GoogleMaps": "3.2.1"
+          "Xamarin.Forms.GoogleMaps": "3.2.1",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "compile": {
           "bin/placeholder/XamarinMaps.dll": {}
@@ -3220,6 +3340,50 @@
         "xamarin.google.ios.maps.nuspec"
       ]
     },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
+    },
     "XamarinMaps/1.0.0": {
       "type": "project",
       "path": "../XamarinMaps/XamarinMaps.csproj",
@@ -3235,7 +3399,9 @@
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "Xamarin.Forms.GoogleMaps >= 3.2.1",
-      "XamarinMaps >= 1.0.0"
+      "XamarinMaps >= 1.0.0",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -3307,6 +3473,14 @@
           "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
             "version": "[3.2.1, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         }
       }

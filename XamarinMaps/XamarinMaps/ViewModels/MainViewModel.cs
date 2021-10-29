@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -16,6 +17,7 @@ namespace XamarinMaps.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        private static System.Timers.Timer aTimer;
         public ICommand CalculateRouteCommand { get; set; }
         public ICommand UpdatePositionCommand { get; set; }
 
@@ -28,6 +30,8 @@ namespace XamarinMaps.ViewModels
         string _originLongitud;
         string _destinationLatitud;
         string _destinationLongitud;
+
+        string _currentText;
 
         GooglePlaceAutoCompletePrediction _placeSelected;
         public GooglePlaceAutoCompletePrediction PlaceSelected
@@ -46,6 +50,7 @@ namespace XamarinMaps.ViewModels
         public ICommand FocusOriginCommand { get; set; }
         public ICommand GetPlacesCommand { get; set; }
         public ICommand GetPlaceDetailCommand { get; set; }
+        public ICommand ScanQRCodeCommand { get; set; }
 
         public ObservableCollection<GooglePlaceAutoCompletePrediction> Places { get; set; }
         public ObservableCollection<GooglePlaceAutoCompletePrediction> RecentPlaces { get; set; } = new ObservableCollection<GooglePlaceAutoCompletePrediction>();
@@ -66,7 +71,7 @@ namespace XamarinMaps.ViewModels
                 if (!string.IsNullOrEmpty(_pickupText))
                 {
                     _isPickupFocused = true;
-                    GetPlacesCommand.Execute(_pickupText);
+                    ScheduleExecution(_pickupText);
                 }
             }
         }
@@ -84,9 +89,41 @@ namespace XamarinMaps.ViewModels
                 if (!string.IsNullOrEmpty(_originText))
                 {
                     _isPickupFocused = false;
-                    GetPlacesCommand.Execute(_originText);
+                    ScheduleExecution(_originText);
                 }
             }
+        }
+
+        string _scannedCode;
+        public string ScannedCode
+        {
+            get
+            {
+                return _scannedCode;
+            }
+            set
+            {
+                _scannedCode = value;
+                if (!string.IsNullOrEmpty(_scannedCode))
+                {
+                    //Notify
+                }
+            }
+        }
+
+        private void ScheduleExecution(string text)
+        {
+            _currentText = text;
+            aTimer.Stop();
+            aTimer = new System.Timers.Timer(2000);
+            aTimer.Elapsed += OnTimedEvent;
+            aTimer.Start();
+        }
+
+        private void OnTimedEvent(Object source, ElapsedEventArgs e)
+        {
+            GetPlacesCommand.Execute(_currentText);
+            aTimer.Stop();
         }
 
         public ICommand GetLocationNameCommand { get; set; }
@@ -103,8 +140,11 @@ namespace XamarinMaps.ViewModels
             LoadRouteCommand = new Command(async () => await LoadRoute());
             StopRouteCommand = new Command(StopRoute);
             GetPlacesCommand = new Command<string>(async (param) => await GetPlacesByName(param));
+            ScanQRCodeCommand = new Command(ScanQRCode);
             GetPlaceDetailCommand = new Command<GooglePlaceAutoCompletePrediction>(async (param) => await GetPlacesDetail(param));
             GetLocationNameCommand = new Command<Position>(async (param) => await GetLocationName(param));
+            aTimer = new System.Timers.Timer(2000);
+            aTimer.Elapsed += OnTimedEvent;
         }
 
         public async Task LoadRoute()
@@ -142,6 +182,24 @@ namespace XamarinMaps.ViewModels
         public void StopRoute()
         {
             HasRouteRunning = false;
+        }
+
+        public async void ScanQRCode()
+        {
+            try
+            {
+                var scanner = DependencyService.Get<IQRScannerService>();
+                var result = await scanner.ScanQrCodeAsync();
+                if (result != null)
+                {
+                    _scannedCode = result;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
         public async Task GetPlacesByName(string placeText)

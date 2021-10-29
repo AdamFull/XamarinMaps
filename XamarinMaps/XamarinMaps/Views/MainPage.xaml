@@ -48,18 +48,22 @@
             </StackLayout.GestureRecognizers>
         </StackLayout>
 
-        <Button Text="Choose Pickup"
+        <Button Text="Scan code"
                    Margin="40"
-                   IsVisible="{Binding IsRouteNotRunning}"
                    Clicked="OnEnterAddressTapped"
-                   Command="{Binding GetLocationNameCommand}"
-                   CommandParameter="{Binding Path=CameraPosition.Target,Source={x:Reference map}}"
+                   Command="{Binding ScanQRCodeCommand}"
                    x:Name="chooseLocationButton"
                    BackgroundColor="DodgerBlue"
                    TextColor="White"
                    FontSize="17"
                    VerticalOptions="EndAndExpand"
                    HorizontalOptions="FillAndExpand"/>
+
+        <Label HorizontalOptions="FillAndExpand"
+                              LineBreakMode="TailTruncation"
+                              FontAttributes="Italic"
+                              Text="{Binding ScannedCode}"
+                              TextColor="Gray"/>
 
         <Button Text="Stop"
                    Margin="40"
