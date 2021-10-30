@@ -34,11 +34,13 @@
 	<string>XamarinMaps</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-  <key>NSLocationAlwaysUsageDescription</key>
-  <string>Can we use your location at all times?</string>
-  <key>NSLocationWhenInUseUsageDescription</key>
-  <string>Can we use your location when your application is being used?</string>
-  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-  <string>Can we use your location at all times?</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Can we use your location at all times?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Can we use your location when your application is being used?</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Can we use your location at all times?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires to use camera for scan QR codes</string>
 </dict>
 </plist>

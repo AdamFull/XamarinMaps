@@ -25,6 +25,7 @@ namespace XamarinMaps.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
             Xamarin.FormsGoogleMaps.Init(Constants.GoogleMapsApiKey);
+            //ZXing.Net.Mobile.Forms.IOS.Platform.Init();
             return base.FinishedLaunching(app, options);
         }
     }

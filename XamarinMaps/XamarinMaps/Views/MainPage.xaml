@@ -50,20 +50,13 @@
 
         <Button Text="Scan code"
                    Margin="40"
-                   Clicked="OnEnterAddressTapped"
-                   Command="{Binding ScanQRCodeCommand}"
+                   Clicked="OnPressedCodeScanner"
                    x:Name="chooseLocationButton"
                    BackgroundColor="DodgerBlue"
                    TextColor="White"
                    FontSize="17"
                    VerticalOptions="EndAndExpand"
                    HorizontalOptions="FillAndExpand"/>
-
-        <Label HorizontalOptions="FillAndExpand"
-                              LineBreakMode="TailTruncation"
-                              FontAttributes="Italic"
-                              Text="{Binding ScannedCode}"
-                              TextColor="Gray"/>
 
         <Button Text="Stop"
                    Margin="40"

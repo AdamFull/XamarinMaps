@@ -18,3 +18,4 @@ C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\net
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.pdb
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.csproj.Fody.CopyLocal.cache
 C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\XamarinMaps.csproj.AssemblyReference.cache
+C:\Users\AdamFull\source\repos\XamarinMaps\XamarinMaps\XamarinMaps\obj\Debug\netstandard2.0\Views\QRCodeScanPage.xaml.g.cs

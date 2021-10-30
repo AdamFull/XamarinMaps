@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMaps.Views.QRCodeScanPage"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" 
+             xmlns:viewmodels="clr-namespace:XamarinMaps.ViewModels" x:DataType="viewmodels:MainViewModel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding ScannedBarcode}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <zxing:ZXingDefaultOverlay                                
+            x:Name="scannerOverlay"                                                       
+            BottomText="Place the red line over the barcode you'd like to scan.">
+
+                <zxing:ZXingScannerView      
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"               
+                IsScanning="{Binding IsBarcodeScanning}" 
+                IsAnalyzing="{Binding IsBarcodeAnalyzing}"
+                Result="{Binding BarcodeResult, Mode=TwoWay}" 
+                ScanResultCommand="{Binding ScanBarcodeCommand}" />
+
+            </zxing:ZXingDefaultOverlay>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

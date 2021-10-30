@@ -50,7 +50,6 @@ namespace XamarinMaps.ViewModels
         public ICommand FocusOriginCommand { get; set; }
         public ICommand GetPlacesCommand { get; set; }
         public ICommand GetPlaceDetailCommand { get; set; }
-        public ICommand ScanQRCodeCommand { get; set; }
 
         public ObservableCollection<GooglePlaceAutoCompletePrediction> Places { get; set; }
         public ObservableCollection<GooglePlaceAutoCompletePrediction> RecentPlaces { get; set; } = new ObservableCollection<GooglePlaceAutoCompletePrediction>();
@@ -94,20 +93,60 @@ namespace XamarinMaps.ViewModels
             }
         }
 
-        string _scannedCode;
-        public string ScannedCode
+        //Barcode scanning
+        private string _scannedBarcode;
+        public string ScannedBarcode
+        {
+            get { return _scannedBarcode; }
+            set { _scannedBarcode = value; }
+        }
+
+        private bool _isBarcodeAnalyzing = true;
+        public bool IsBarcodeAnalyzing
+        {
+            get { return _isBarcodeAnalyzing; }
+            set
+            {
+                if (!Equals(_isBarcodeAnalyzing, value))
+                {
+                    _isBarcodeAnalyzing = value;
+                }
+            }
+        }
+
+        private bool _isBarcodeScanning = true;
+        public bool IsBarcodeScanning
+        {
+            get { return _isBarcodeScanning; }
+            set
+            {
+                if (!Equals(_isBarcodeScanning, value))
+                {
+                    _isBarcodeScanning = value;
+                }
+            }
+        }
+
+        public ZXing.Result BarcodeResult { get; set; }
+
+        public Command ScanBarcodeCommand
         {
             get
             {
-                return _scannedCode;
-            }
-            set
-            {
-                _scannedCode = value;
-                if (!string.IsNullOrEmpty(_scannedCode))
+                return new Command(() =>
+
                 {
-                    //Notify
-                }
+                    IsBarcodeAnalyzing = false;
+                    IsBarcodeScanning = false;
+
+                    Device.BeginInvokeOnMainThread(async () =>
+                    {
+                        ScannedBarcode = BarcodeResult.Text;
+                    });
+
+                    IsBarcodeAnalyzing = true;
+                    IsBarcodeScanning = true;
+                });
             }
         }
 
@@ -140,7 +179,6 @@ namespace XamarinMaps.ViewModels
             LoadRouteCommand = new Command(async () => await LoadRoute());
             StopRouteCommand = new Command(StopRoute);
             GetPlacesCommand = new Command<string>(async (param) => await GetPlacesByName(param));
-            ScanQRCodeCommand = new Command(ScanQRCode);
             GetPlaceDetailCommand = new Command<GooglePlaceAutoCompletePrediction>(async (param) => await GetPlacesDetail(param));
             GetLocationNameCommand = new Command<Position>(async (param) => await GetLocationName(param));
             aTimer = new System.Timers.Timer(2000);
@@ -182,24 +220,6 @@ namespace XamarinMaps.ViewModels
         public void StopRoute()
         {
             HasRouteRunning = false;
-        }
-
-        public async void ScanQRCode()
-        {
-            try
-            {
-                var scanner = DependencyService.Get<IQRScannerService>();
-                var result = await scanner.ScanQrCodeAsync();
-                if (result != null)
-                {
-                    _scannedCode = result;
-                }
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
         }
 
         public async Task GetPlacesByName(string placeText)

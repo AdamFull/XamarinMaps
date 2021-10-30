@@ -13,8 +13,6 @@ namespace XamarinMaps
 {
     public partial class MainPage : ContentPage
     {
-
-
         public MainPage()
         {
             InitializeComponent();
@@ -23,12 +21,15 @@ namespace XamarinMaps
 
         }
 
-
-
-
         public async void OnEnterAddressTapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SearchPlacePage() { BindingContext = this.BindingContext }, false);
+
+        }
+
+        public async void OnPressedCodeScanner(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new QRCodeScanPage() { BindingContext = this.BindingContext }, false);
 
         }
 
